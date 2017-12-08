@@ -47,7 +47,7 @@
                     </li>
                 </ul>
                 <span class="navbar-text">
-                    <a href="" data-toggle="modal" data-target="#loginmodal">
+                    <a  id="loginBtn" >
                         <span class="fa fa-sign-in"></span>Login
                     </a>
                 </span>
@@ -55,7 +55,8 @@
 
         </div>
     </nav>
-    <div id="loginmodal" class="modal fade" role="dialog">
+    <!-- login form modal -->
+    <div id="loginModal" class="modal fade" role="dialog" >
         <div class="modal-dialog" role="content">
             <div class="modal-content">
                 <div class="modal-header">
@@ -88,6 +89,7 @@
             </div>
         </div>
     </div>
+    <!-- Fin login form modal -->
     <header class="jumbotron">
         <div class="container">
             <div class="row row-header">
@@ -100,12 +102,13 @@
                     <img src="img/logo.png" class="img-fluid" alt="">
                 </div>
                 <div class="col-12 col-sm-3 align-self-center">
-                    <a href="#Reserve" class="btn btn-warning btn-sm btn-block text-white" data-toggle="modal" data-target="#reserveModal">
+                    <a id="reserveBtn" class="btn btn-warning btn-sm btn-block text-white">
                         Reserve Table</a>
                 </div>
             </div>
         </div>
     </header>
+    <!-- reserve form modal -->
     <div id="reserveModal" class="modal fage">
         <div class="modal-dialog" role="content">
             <div class="modal-content">
@@ -195,7 +198,7 @@
             </div>
         </div>
     </div>
-
+<!-- fin reserve form modal -->
     <div class="container">
         <!-- carousel -->
         <div class="row row-content">

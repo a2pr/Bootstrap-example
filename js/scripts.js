@@ -15,4 +15,10 @@ $(document).ready(function () {
         }
        
     });
+});
+$('#loginBtn').click(function () {
+    $("#loginModal").modal('show');
+})
+$('#reserveBtn').click(function () {
+    $("#reserveModal").modal('show');
 })
